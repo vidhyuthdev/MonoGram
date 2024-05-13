@@ -177,6 +177,11 @@ ul{
     height:calc(100% - 69px);
     width:100%;
 }
+.cardimgs {
+    position: relative;
+    height:calc(100% - 135px);
+    width:100%;
+}
 .preord{
     color:#212529;  
     position: absolute;
@@ -187,7 +192,7 @@ ul{
     box-sizing: border-box;
     background-color: #FF8D6B;
 }
-.cardimg img{
+.cardimg img,.cardimgs img{
     height:100%;
     width:100%;
 }
