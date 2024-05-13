@@ -51,6 +51,9 @@ body{
 .fa-bars{
     display: none !important;
 }
+.fa-bars:hover,.fa-x:hover{
+    cursor: pointer;
+}
 .navbar{
     margin:15px;
     background-color:#1a2456;
@@ -216,6 +219,7 @@ ul{
     margin-top:10px;
     display: flex;
     justify-content: space-between;
+    
 }
 .prod, .price{
     color:#1a2456;
@@ -230,12 +234,19 @@ ul{
 }
 .price{
     display: flex;
+
 }
 .desc{
     color:#1a2456;
     font-size:0.8rem;
     font-weight: 300;
     
+}
+.shopbut{
+    display: none;
+}
+.shbut:hover{
+    cursor: pointer;
 }
 .shbut{
     background-color: #1A2456;
