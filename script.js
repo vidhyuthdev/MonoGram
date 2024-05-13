@@ -3,7 +3,7 @@ const hammenu=document.querySelector('.hamopt')
 console.log(hammenu);
 hamburg.addEventListener('click',()=>{
     hammenu.classList.toggle('hidden');
-    hammenu.style.zIndex='2';
+    hammenu.style.zIndex='9';
     
 })
 const x=document.querySelector('.fa-x')
